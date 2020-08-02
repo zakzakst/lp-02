@@ -1,0 +1,12 @@
+.gallery {
+  flex-wrap: wrap;
+}
+.gallery__item {
+  display: block;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.gallery__modal {
+  z-index: $z-gallery-modal;
+}

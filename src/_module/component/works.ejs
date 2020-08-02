@@ -1,0 +1,12 @@
+<div class="columns">
+<% for(let i = 0; i < works.length; i++) { -%>
+<% let work = works[i]; -%>
+  <div class="column content tablet-column wow slideInUp" data-wow-offset="200">
+    <p class="image is-2by1">
+      <img src="<%= work.img %>" alt="<%= work.alt %>">
+      <p class="title is-4"><%= work.title %></p>
+      <p class="subtitle is-6"><%= work.text %></p>
+    </p>
+  </div>
+<% } -%>
+</div>

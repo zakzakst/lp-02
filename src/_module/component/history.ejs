@@ -1,0 +1,17 @@
+<div class="history">
+<% for(let i = 0; i < history.length; i++) { -%>
+<% let historyItem = history[i]; -%>
+  <div class="columns content is-vcentered history__item wow slideInUp" data-wow-offset="200">
+    <div class="column history__heading">
+      <p class="title is-4"><%= historyItem.job %></p>
+      <p class="subtitle is-6"><%= historyItem.company %></p>
+      <p><%= historyItem.term %></p>
+    </div>
+    <div class="column history__description">
+      <div class="box">
+        <p><%= historyItem.text %></p>
+      </div>
+    </div>
+  </div>
+<% } -%>
+</div>

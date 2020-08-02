@@ -1,0 +1,13 @@
+<!-- 共通の読み込みファイル -->
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<script src="/js/common.js"></script>
+
+<% if(pageData.addHeadLinks.length > 0 || pageData.addHeadScripts.length > 0) { -%>
+<!-- このページ用の読み込みファイル -->
+<% for (var i = 0; i < pageData.addHeadLinks.length; i++) { -%>
+<link rel="stylesheet" type="text/css" href="<%= pageData.addHeadLinks[i] %>">
+<% } -%>
+<% for (var i = 0; i < pageData.addHeadScripts.length; i++) { -%>
+<link rel="stylesheet" type="text/css" href="<%= pageData.addHeadScripts[i] %>">
+<% } -%>
+<% } -%>

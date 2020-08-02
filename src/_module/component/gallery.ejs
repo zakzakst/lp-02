@@ -1,0 +1,21 @@
+<div class="columns is-gapless is-mobile gallery js-gallery">
+<% for(let i = 0; i < gallery.length; i++) { -%>
+<% let galleryItem = gallery[i]; -%>
+  <div class="column is-6-mobile is-4-tablet is-2-desktop">
+    <a href="<%= galleryItem.link %>" class="gallery__item">
+      <figure class="image is-1by1">
+        <img src="<%= galleryItem.img %>" alt="<%= galleryItem.alt %>">
+      </figure>
+    </a>
+  </div>
+<% } -%>
+</div>
+<div class="modal gallery__modal" id="js-gallery__modal">
+  <div class="modal-background js-gallery__modal-close"></div>
+  <div class="modal-content">
+    <p class="image">
+      <img src="" id="js-gallery__image">
+    </p>
+  </div>
+  <button class="modal-close is-large js-gallery__modal-close"></button>
+</div>

@@ -1,0 +1,25 @@
+$slick-dot-width: 12px;
+$slick-dot-height: 12px;
+$slick-dot-color: #000;
+
+.voices {
+  .media {
+    padding: 0 12px;
+  }
+  .slick-dots li {
+    width: $slick-dot-width;
+    height: $slick-dot-height;
+  }
+  .slick-dots li button {
+    width: $slick-dot-width;
+    height: $slick-dot-height;
+  }
+  .slick-dots li button:before {
+    content: '';
+    width: $slick-dot-width;
+    height: $slick-dot-height;
+    line-height: $slick-dot-height;
+    background: $slick-dot-color;
+    border-radius: 50%;
+  }
+}

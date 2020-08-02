@@ -1,0 +1,35 @@
+<%
+const pageData = {
+  title: 'トップページ',
+  subTitle: 'This Is Page of Top',
+  keywords: 'トップページの,キーワードを,カンマ区切りで,記載',
+  description: 'トップページの概要',
+  root: '',
+  url: 'https://ejs-sample.com/',
+  currentNav: 'top',
+  addHeadLinks: [],
+  addHeadScripts: [],
+  addFootScripts: [],
+};
+-%>
+<%- include(pageData.root + '../_module/layout/layout-head', {pageData, commonData}); -%>
+
+<main>
+<%- include(pageData.root + '../_module/page/top/section-top', {pageData}); -%>
+
+<%- include(pageData.root + '../_module/page/top/section-about'); -%>
+
+<%- include(pageData.root + '../_module/page/top/section-service'); -%>
+
+<%- include(pageData.root + '../_module/page/top/section-portfolio'); -%>
+
+<%- include(pageData.root + '../_module/page/top/section-experience'); -%>
+
+<%- include(pageData.root + '../_module/page/top/section-count-up'); -%>
+
+<%- include(pageData.root + '../_module/page/top/section-gallery'); -%>
+
+<%- include(pageData.root + '../_module/page/top/section-clients-says'); -%>
+</main>
+
+<%- include(pageData.root + '../_module/layout/layout-foot', {pageData, commonData}); -%>

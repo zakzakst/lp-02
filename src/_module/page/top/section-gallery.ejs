@@ -1,0 +1,43 @@
+<%
+const gallery = [
+  {
+    img: 'https://bulma.io/images/placeholders/256x256.png',
+    alt: 'Placeholder',
+    link: 'https://bulma.io/images/placeholders/640x320.png'
+  },
+  {
+    img: 'https://bulma.io/images/placeholders/256x256.png',
+    alt: 'Placeholder',
+    link: 'https://bulma.io/images/placeholders/640x320.png'
+  },
+  {
+    img: 'https://bulma.io/images/placeholders/256x256.png',
+    alt: 'Placeholder',
+    link: 'https://bulma.io/images/placeholders/640x320.png'
+  },
+  {
+    img: 'https://bulma.io/images/placeholders/256x256.png',
+    alt: 'Placeholder',
+    link: 'https://bulma.io/images/placeholders/640x320.png'
+  },
+  {
+    img: 'https://bulma.io/images/placeholders/256x256.png',
+    alt: 'Placeholder',
+    link: 'https://bulma.io/images/placeholders/640x320.png'
+  },
+  {
+    img: 'https://bulma.io/images/placeholders/256x256.png',
+    alt: 'Placeholder',
+    link: 'https://bulma.io/images/placeholders/640x320.png'
+  },
+];
+%>
+<section class="has-background-white-bis" id="section-gallery">
+  <div class="container">
+    <div class="section">
+      <p class="subtitle has-text-centered">Gallery</p>
+      <h2 class="title has-text-centered">My Activities</h2>
+<%- include('../../component/gallery', {gallery}); -%>
+    </div>
+  </div>
+</section>

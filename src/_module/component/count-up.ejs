@@ -1,0 +1,11 @@
+<nav class="level" id="js-count-up">
+<% for(let i = 0; i < countUpList.length; i++) { -%>
+<% let countUpItem = countUpList[i]; -%>
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading"><%= countUpItem.title %></p>
+      <p class="title"><span class="count-up__number" data-count-up="<%= countUpItem.number %>">0</span><%= countUpItem.unit %></p>
+    </div>
+  </div>
+<% } %>
+</nav>

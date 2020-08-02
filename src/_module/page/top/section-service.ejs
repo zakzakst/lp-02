@@ -1,0 +1,43 @@
+<%
+const services = [
+  {
+    title: 'Graphic Design',
+    text: 'Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.',
+    icon: 'fas fa-bezier-curve',
+  },
+  {
+    title: 'Web Design',
+    text: 'Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.',
+    icon: 'fas fa-laptop',
+  },
+  {
+    title: 'UI/UX Design',
+    text: 'Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.',
+    icon: 'fas fa-sitemap',
+  },
+  {
+    title: 'Frontend',
+    text: 'Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.',
+    icon: 'fas fa-code',
+  },
+  {
+    title: 'Business Analysis',
+    text: 'Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.',
+    icon: 'fas fa-chart-line',
+  },
+  {
+    title: 'Digital Marketing',
+    text: 'Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.',
+    icon: 'fas fa-bullhorn',
+  },
+];
+-%>
+<section class="has-background-white-bis" id="section-services">
+  <div class="container">
+    <div class="section">
+      <p class="subtitle has-text-centered">Services</p>
+      <h2 class="title has-text-centered">Service I Provide</h2>
+<%- include('../../component/services', {services}); -%>
+    </div>
+  </div>
+</section>

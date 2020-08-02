@@ -1,0 +1,14 @@
+<div class="columns service">
+<% for(let i = 0; i < services.length; i++) { -%>
+<% let service =services[i]; -%>
+  <div class="column is-one-third-tablet tablet-column">
+    <div class="card has-text-centered wow slideInUp" data-wow-offset="200">
+      <div class="card-content content">
+        <p><span class="icon is-large"><i class="<%= service.icon %> fa-3x"></i></span></p>
+        <p class="title is-4"><%= service.title %></p>
+        <p class="subtitle is-6"><%= service.text %></p>
+      </div>
+    </div>
+  </div>
+<% } -%>
+</div>

@@ -1,0 +1,10 @@
+<div class="cycle-image js-cycle-image">
+<% for(let i = 0; i < imageList.length; i++) { -%>
+<% let imageItem = imageList[i]; -%>
+  <div>
+    <p class="image">
+      <img src="<%= imageItem.img %>" alt="<%= imageItem.alt %>">
+    </p>
+  </div>
+<% } -%>
+</div>

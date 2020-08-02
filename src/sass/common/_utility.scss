@@ -1,0 +1,6 @@
+.tablet-column {
+  @media screen and (max-width: $breakpoint-md) {
+    max-width: $tablet-column-width;
+    margin: 0 auto;
+  }
+}

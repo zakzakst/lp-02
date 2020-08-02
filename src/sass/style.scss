@@ -1,0 +1,20 @@
+// ライブラリ
+@import "./lib/_bulma.scss";
+@import "./lib/_slick.scss";
+@import "./lib/_slick-theme.scss";
+@import "./lib/_animate.scss";
+
+// 変数
+@import "./base/_variables.scss";
+
+// 共通
+@import "./common/_utility.scss";
+@import "./common/_header.scss";
+
+// 各種パーツ
+@import "./component/_go-top.scss";
+@import "./component/_history.scss";
+@import "./component/_services.scss";
+@import "./component/_voices.scss";
+@import "./component/_gallery.scss";
+@import "./component/_works.scss";

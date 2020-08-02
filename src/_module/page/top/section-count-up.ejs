@@ -1,0 +1,31 @@
+<%
+const countUpList = [
+  {
+    title: 'Projects Done',
+    number: '123',
+    unit: '件以上',
+  },
+  {
+    title: 'Satisfied Clients',
+    number: '70',
+    unit: '％',
+  },
+  {
+    title: 'Active Projects',
+    number: '15',
+    unit: '件',
+  },
+  {
+    title: 'Years Experience',
+    number: '5',
+    unit: '年',
+  },
+];
+-%>
+<section>
+  <div class="container">
+    <div class="section">
+<%- include('../../component/count-up', {countUpList}); -%>
+    </div>
+  </div>
+</section>

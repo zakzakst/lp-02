@@ -1,0 +1,47 @@
+{
+  "siteName": "★★サイト名★★",
+  "siteUrl": "https://www.xxx/",
+  "viewport": "width=device-width, initial-scale=1",
+  "shortcutIcon": "https://www.xxx/path/to/favicon.ico",
+  "appleIcon": "https://www.xxx/path/to/apple-touch-icon.png",
+  "twitterCard": "summary_large_image",
+  "twitterSite": "@xxxxx",
+  "ogImage": "https://www.xxx/path/to/ogp.png",
+  "navList": [
+    {
+      "name": "top",
+      "label": "Top",
+      "path": "#section-top"
+    },
+    {
+      "name": "about",
+      "label": "About",
+      "path": "#section-about"
+    },
+    {
+      "name": "services",
+      "label": "Services",
+      "path": "#section-services"
+    },
+    {
+      "name": "portfolio",
+      "label": "Portfolio",
+      "path": "#section-portfolio"
+    },
+    {
+      "name": "experience",
+      "label": "Experience",
+      "path": "#section-experience"
+    },
+    {
+      "name": "gallery",
+      "label": "Gallery",
+      "path": "#section-gallery"
+    },
+    {
+      "name": "testmonials",
+      "label": "Testmonials",
+      "path": "#section-testmonials"
+    }
+  ]
+}
