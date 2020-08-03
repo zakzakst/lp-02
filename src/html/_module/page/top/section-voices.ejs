@@ -1,43 +1,43 @@
 <%
-const services = [
+const voices = [
   {
-    title: 'グラフィックデザイン',
+    name: '苗字 名前01',
+    position: '企業名 役職名',
     text: 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
-    icon: 'fas fa-bezier-curve',
+    img: 'https://bulma.io/images/placeholders/128x128.png'
   },
   {
-    title: 'Webデザイン',
+    name: '苗字 名前02',
+    position: '企業名 役職名',
     text: 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
-    icon: 'fas fa-laptop',
+    img: 'https://bulma.io/images/placeholders/128x128.png'
   },
   {
-    title: 'UI/UXデザイン',
+    name: '苗字 名前03',
+    position: '企業名 役職名',
     text: 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
-    icon: 'fas fa-sitemap',
+    img: 'https://bulma.io/images/placeholders/128x128.png'
   },
   {
-    title: 'フロンドエンド',
+    name: '苗字 名前04',
+    position: '企業名 役職名',
     text: 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
-    icon: 'fas fa-code',
+    img: 'https://bulma.io/images/placeholders/128x128.png'
   },
   {
-    title: 'SEO調査',
+    name: '苗字 名前05',
+    position: '企業名 役職名',
     text: 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
-    icon: 'fas fa-chart-line',
-  },
-  {
-    title: 'デジタルマーケティング',
-    text: 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
-    icon: 'fas fa-bullhorn',
+    img: 'https://bulma.io/images/placeholders/128x128.png'
   },
 ];
 -%>
-<section class="has-background-white-bis" id="section-services">
+<section id="section-voices">
   <div class="container">
     <div class="section">
-      <p class="subtitle has-text-centered">Services</p>
-      <h2 class="title has-text-centered">対応サービス</h2>
-<%- include('../../component/services', {services}); -%>
+      <p class="subtitle has-text-centered">Voices</p>
+      <h2 class="title has-text-centered">お客様の声</h2>
+<%- include('../../component/voices', {voices}); -%>
     </div>
   </div>
 </section>
