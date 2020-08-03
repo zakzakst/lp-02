@@ -4,8 +4,6 @@
   "viewport": "width=device-width, initial-scale=1",
   "shortcutIcon": "https://www.xxx/path/to/favicon.ico",
   "appleIcon": "https://www.xxx/path/to/apple-touch-icon.png",
-  "twitterCard": "summary_large_image",
-  "twitterSite": "@xxxxx",
   "ogImage": "https://www.xxx/path/to/ogp.png",
   "navList": [
     {
@@ -39,9 +37,9 @@
       "path": "#section-gallery"
     },
     {
-      "name": "testmonials",
-      "label": "Testmonials",
-      "path": "#section-testmonials"
+      "name": "voices",
+      "label": "Voices",
+      "path": "#section-voices"
     }
   ]
 }
