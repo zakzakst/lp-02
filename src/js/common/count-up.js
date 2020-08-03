@@ -1,4 +1,4 @@
-$(function() {
+export function countUpFunc() {
   const el = document.getElementById('js-count-up');
   if(!el) {return;}
   addEventCountUp();
@@ -45,4 +45,4 @@ $(function() {
       }
     }, countInterval);
   }
-});
+}

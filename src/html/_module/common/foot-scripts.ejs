@@ -1,6 +1,6 @@
 <% if(pageData.addFootScripts.length > 0) { -%>
 <!-- このページ用の読み込みファイル -->
 <% for (var i = 0; i < pageData.addFootScripts.length; i++) { -%>
-<link rel="stylesheet" type="text/css" href="<%= pageData.addFootScripts[i] %>">
+<script src="<%= pageData.addFootScripts[i] %>"></script>
 <% } -%>
 <% } -%>

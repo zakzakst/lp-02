@@ -7,29 +7,29 @@ const pageData = {
   root: '',
   url: 'https://ejs-sample.com/',
   currentNav: 'top',
-  addHeadLinks: [],
+  addHeadLinks: ['https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'],
   addHeadScripts: [],
-  addFootScripts: [],
+  addFootScripts: ['https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js', 'https://use.fontawesome.com/releases/v5.3.1/js/all.js'],
 };
 -%>
-<%- include(pageData.root + '../_module/layout/layout-head', {pageData, commonData}); -%>
+<%- include(pageData.root + './_module/layout/layout-head', {pageData, commonData}); -%>
 
 <main>
-<%- include(pageData.root + '../_module/page/top/section-top', {pageData}); -%>
+<%- include(pageData.root + './_module/page/top/section-top', {pageData}); -%>
 
-<%- include(pageData.root + '../_module/page/top/section-about'); -%>
+<%- include(pageData.root + './_module/page/top/section-about'); -%>
 
-<%- include(pageData.root + '../_module/page/top/section-service'); -%>
+<%- include(pageData.root + './_module/page/top/section-service'); -%>
 
-<%- include(pageData.root + '../_module/page/top/section-portfolio'); -%>
+<%- include(pageData.root + './_module/page/top/section-portfolio'); -%>
 
-<%- include(pageData.root + '../_module/page/top/section-experience'); -%>
+<%- include(pageData.root + './_module/page/top/section-experience'); -%>
 
-<%- include(pageData.root + '../_module/page/top/section-count-up'); -%>
+<%- include(pageData.root + './_module/page/top/section-count-up'); -%>
 
-<%- include(pageData.root + '../_module/page/top/section-gallery'); -%>
+<%- include(pageData.root + './_module/page/top/section-gallery'); -%>
 
-<%- include(pageData.root + '../_module/page/top/section-clients-says'); -%>
+<%- include(pageData.root + './_module/page/top/section-clients-says'); -%>
 </main>
 
-<%- include(pageData.root + '../_module/layout/layout-foot', {pageData, commonData}); -%>
+<%- include(pageData.root + './_module/layout/layout-foot', {pageData, commonData}); -%>

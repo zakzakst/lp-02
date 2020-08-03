@@ -1,4 +1,6 @@
-$(function() {
+import $ from 'jquery';
+
+export function headerFunc() {
   const el = $('#js-header__navbar');
   if(!el) {return;}
   const menu = $('#js-header__navbar-menu');
@@ -99,4 +101,4 @@ $(function() {
     let target = navItem.filter('[href="#' + currentSection + '"]');
     target.addClass('is-active');
   }
-});
+}

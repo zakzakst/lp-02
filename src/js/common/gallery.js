@@ -1,4 +1,6 @@
-$(function() {
+import $ from 'jquery';
+
+export function galleryFunc() {
   const el = $('.js-gallery');
   if(!el) {return;}
   const speed = 400;
@@ -30,4 +32,4 @@ $(function() {
     galleryModal.fadeOut(speed);
     galleryImage.attr('src', '');
   }
-});
+}

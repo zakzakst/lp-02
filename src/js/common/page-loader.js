@@ -1,4 +1,6 @@
-$(function() {
+import $ from 'jquery';
+
+export function pageLoaderFunc() {
   const el = $('#js-page-loader');
   if(!el) {return;}
   const speed = 400;
@@ -7,4 +9,4 @@ $(function() {
   $(window).on('load', () => {
     el.delay(delay).fadeOut(speed);
   });
-});
+}

@@ -1,4 +1,7 @@
-$(function() {
+import $ from 'jquery';
+import 'slick-carousel';
+
+export function cycleImageFunc() {
   const el = $('.js-cycle-image');
   if(!el) {return;}
   carouselInit();
@@ -14,4 +17,4 @@ $(function() {
       // fade: true,
     });
   }
-});
+}

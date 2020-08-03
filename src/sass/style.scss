@@ -1,8 +1,7 @@
 // ライブラリ
-@import "./lib/_bulma.scss";
-@import "./lib/_slick.scss";
-@import "./lib/_slick-theme.scss";
-@import "./lib/_animate.scss";
+@import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
 
 // 変数
 @import "./base/_variables.scss";

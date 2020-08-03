@@ -1,4 +1,6 @@
-$(function() {
+import $ from 'jquery';
+
+export function goTopFunc() {
   const el = $('#js-go-top');
   if(!el) {return;}
   addEventGoTop();
@@ -10,4 +12,4 @@ $(function() {
       $('body,html').animate({scrollTop:0}, speed);
     });
   }
-});
+}
